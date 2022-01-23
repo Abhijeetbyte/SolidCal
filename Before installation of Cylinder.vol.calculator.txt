@@ -1,0 +1,17 @@
+Hi there,
+
+Cylinder volume calculator enables calculating the volume of that solid. Whether you want to figure how much water fits in the can, coffee in your favorite mug, or even what's the volume of a drinking straw - you're in the right place. 
+
+The formula for the volume of a cylinder is height x π x (diameter / 2)2, where (diameter / 2) is the radius of the base (d = 2 x r), so another way to write it is height x π x radius2
+
+Application is build using Python programing language (3.9 and Tkinter framework for Graphical User Interface (GUI).
+
+Application Version 1.0
+
+Regards 
+
+Abhijeet kumar[Application Developer]
+ 
+Abhijeetkr.sci@gmail.com 
+
+https://github.com/4BH1J337
