@@ -1,5 +1,6 @@
 # Cylinder-Volume-Calculator
-## Cylinder volume calculator enables calculating the volume of a Right / oblique full cylinder
+
+## Cylinder volume calculator features the calculations of the volume of a Right /oblique full cylinder. 
 ### Size : 10.5 mb 
 ### compatibility : Windows 10 or above
 ### [Download v1.0](https://github.com/4BH1J337/Cylinder-Volume-Calculator/releases/download/Version1.0/Cylinder.Volume.Calculator_setup.exe)
