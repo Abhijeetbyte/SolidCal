@@ -1,4 +1,4 @@
-# Cylinder-Volume-Calculator
+# Cylinder Volume Calculator
 
 ## Cylinder volume calculator features the calculations of the volume of a Right /oblique full cylinder. 
 ### Size : 10.5 mb 
