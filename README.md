@@ -1,7 +1,7 @@
 # Volume Calculator
 #
 ### This calculator is to easily calculate the volume of geometric solids including a cylinder, cone, cuboid, sphere. The input values can be given multiple metric/unit:  mm, cm, in. The volume of every shape is calculated differently using different formulas.
-### User can select the desired shape from the Shape drop-down list and the entry fields it automatically configures as per input requirements for each mentioned shape.
+### User can select the desired shape from the Shape drop-down list and the entry fields are automatically configures as per input requirements for each mentioned shape.
 #
 ### Size : 12 mb 
 ### compatibility : Windows 10 or above
