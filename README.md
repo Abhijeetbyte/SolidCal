@@ -5,7 +5,7 @@
 #
 ### Size : 12 mb 
 ### compatibility : Windows 10 or above
-### [Download v1.1](https://github.com/4BH1J337/Cylinder-Volume-Calculator/releases/download/Version1.0/Cylinder.Volume.Calculator_setup.exe)
+### [Download v1.1](https://github.com/4BH1J337/Volume-Calculator/releases/download/Version1.1/Volume.calculator.setup.exe)
 #
 
 ### After Installation Icon
