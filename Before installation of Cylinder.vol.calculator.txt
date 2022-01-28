@@ -1,12 +1,17 @@
 Hi there,
 
-Cylinder volume calculator enables calculating the volume of that solid. Whether you want to figure how much water fits in the can, coffee in your favorite mug, or even what's the volume of a drinking straw - you're in the right place. 
+Volume calculator features the calculations of the various volume of geometric solids including a Cylinder, Cone, Cuboid and Sphere. Whether you want to figure 
 
-The formula for the volume of a cylinder is height x π x (diameter / 2)2, where (diameter / 2) is the radius of the base (d = 2 x r), so another way to write it is height x π x radius2
+how much water fits in the can or need to find the volume of a rectangular box.
 
-Application is build using Python programing language (3.9 and Tkinter framework for Graphical User Interface (GUI).
+The volume of every shape is calculated differently using different formulas. The input values can be given multiple metric/unit:  mm, cm, in. The units  are in place
 
-Application Version 1.0
+to give an indication of the order of the result such as mm3,cm3 or in litres.
+
+Application is built using Python programing language (3.10) and Tkinter framework for Graphical User Interface (GUI).
+
+Application Version 1.1
+
 
 Regards 
 
