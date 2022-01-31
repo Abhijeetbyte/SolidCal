@@ -11,8 +11,8 @@ User can select the desired shape from the Shape drop-down list and the entry fi
 Prerequisites:
 
 * Your computer must be running Windows 10 or newer.
-* Install the latest version of [Application](https://github.com/4BH1J337/Volume-Calculator/releases/download/Version1.1/Volume.calculator.setup.exe)
-* Application Size : 12 mb 
+* Install the latest version of Application. [Download v1.1](https://github.com/4BH1J337/Volume-Calculator/releases/download/Version1.1/Volume.calculator.setup.exe)
+* Application Size : 12 MB
 
 ### Program Execution
 ![after installation icon](after-installation.png)
