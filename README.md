@@ -15,12 +15,12 @@ Prerequisites:
 * Application Size : 12 MB
 
 ### Program Execution
-![after installation icon](after-installation.png)
+![after installation icon](Images/after-installation.png)
 
-![Running](running.png)
+![Running](Images/running.png)
 #
 ### Input & Output Function
-![shape select](shape-selection.png) ![units](multiple-unit-selection.png)![cylinder](cylinder.png)
+![shape select](Images/shape-selection.png) ![units](Images/multiple-unit-selection.png)![cylinder](Images/cylinder.png)
 #
 * The units are shown for convenience but do not affect the calculations. The units  are in place to give an indication
   of the order of the result such as mm3,cm3 or Litres.
