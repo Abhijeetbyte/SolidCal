@@ -6,7 +6,7 @@ root.geometry("320x480") #Width x Height (320,480)
 root.resizable(False,False) # window always stay in same size 
 root.title("Volume Calculator") #Title bar
 
-root.iconbitmap('volcon.ico')# Setting icon of master window,The image is of .ico extension 
+root.iconbitmap('Images/volcon.ico')# Setting icon of master window,The image is of .ico extension 
 
 
  
