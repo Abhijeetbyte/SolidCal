@@ -1,6 +1,6 @@
 # Run/Execute python script
 
- To run the python programme or <b>[main.py](main/main.py)</b> file on your computer. </br>
+ To run the python programme or <b>[main.py](https://github.com/Abhijeetbyte/Volume-Calculator/blob/main/main.py)</b> file on your computer. </br>
  
 <b> Prerequisites:</b>
 
