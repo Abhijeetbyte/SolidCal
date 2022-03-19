@@ -16,8 +16,6 @@ User can select the desired shape from the Shape drop-down list and the entry fi
 
 ## Start with [Python](docs/PYTHON.md) Programme
 
-
-
 ### Program Execution
 ![after installation icon](Images/after-installation.png)
 
@@ -37,4 +35,4 @@ User can select the desired shape from the Shape drop-down list and the entry fi
 
 Copyright © 2022 Abhijeet kumar. All rights reserved.
 
-Licensed under the [MIT License.](https://github.com/4BH1J337/Volume-Calculator/blob/main/LICENSE)
+Licensed under the [CC0-1.0 License.](https://github.com/4BH1J337/Volume-Calculator/blob/main/LICENSE)
