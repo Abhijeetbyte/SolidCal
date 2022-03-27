@@ -27,7 +27,6 @@ shapeVarible=StringVar() #varible to store selected shape
 shapeVarible.set("Select") # set the placeholder to select
 
 
-
 # Controle Structure/Logic---------------------------------------------------------------------
 
 
@@ -69,6 +68,8 @@ def show_selected_shape(*args): #function to get Selected shape from list DropDo
           L2.place(x=20,y=160) # height label
           L4.place(x=20,y=205) # width label         
           L5.place(x=20,y=240) # unit label
+
+          L6.place(x=105,y=270) #Results label,fix location in all
     
           dropDownMenu.place(x=80,y=240)#option menu of unit
 
@@ -89,7 +90,8 @@ def show_selected_shape(*args): #function to get Selected shape from list DropDo
           L3.place(x=20,y=110) # radius location
           L2.place(x=20,y=160) # height label
           L5.place(x=20,y=210) #unit label, change loction after cuboid or first time placement
-          L6.place(x=105,y=270) #Results label, change location
+          
+          L6.place(x=105,y=270) #Results label,fix location in all
           
           radiusEntry.place(x=80,y=110) # first time placement
           heightEntry.place(x=80,y=160) # first time placement
@@ -117,6 +119,8 @@ def show_selected_shape(*args): #function to get Selected shape from list DropDo
         L3.config(text="Radius",font=20)  #length label, change to radius
         L3.place(x=20,y=140) # radius location, first time placement
         L5.place(x=20,y=210) #unit label, change loction after cuboid or first time placement
+
+        L6.place(x=105,y=270) #Results label,fix location in all
         
         radiusEntry.place(x=80,y=140) # first time placement
          
@@ -222,15 +226,15 @@ def Calculate_Vol(*args): #function to Calculate volume ( Calculate_Vol, button 
     Round_Liters = float(round(Liters,3)) #Rounding off by 2 decimal places
     Round_CubicUnits=float( round(CubicUnits,3))
     
-    print('CubicUnits : ',Round_CubicUnits)# For Shell
+    print('CubicUnits : ',Round_CubicUnits)# for Shell
     print('Liters : ',Round_Liters)
     print('\n') #blank line
     
   
     #Push Results to GUI labels
     
-    L6=Label(text=f"{Round_CubicUnits} {unitVarible.get()}3 ",font=('Helvetica',12,'bold'),bg="#FFFFFF",width=25, height=3).place(x=30,y=310)
-    L7=Label(text=f"{Round_Liters} Liters ",font=('Helvetica',12,'bold'),bg="#FFFFFF",width=25, height=2).place(x=30,y=360)
+    L7=Label(text=f"{Round_CubicUnits} {unitVarible.get()}3 ",font=('Helvetica',12,'bold'),bg="#FFFFFF",width=25, height=3).place(x=30,y=310)
+    L8=Label(text=f"{Round_Liters} Liters ",font=('Helvetica',12,'bold'),bg="#FFFFFF",width=25, height=2).place(x=30,y=360)
 
 
 
@@ -247,8 +251,7 @@ def CLEAR(*args): # Function to clear/reset all input fields ( CLEAR, button com
     L7=Label(text=f"",font=('Helvetica',12,'bold'),bg="#FFFFFF",width=25, height=3).place(x=30,y=310) #Clear labels (empty label)
     L8=Label(text=f"",font=('Helvetica',12,'bold'),bg="#FFFFFF",width=25, height=2).place(x=30,y=360)
     
-    print(" Clear ")
-    print('\n') #blank line
+    print("Clear\n")
 
 CLEAR()# Call function , So things already clear in starting
 
