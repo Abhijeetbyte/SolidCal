@@ -11,7 +11,7 @@ User can select the desired shape from the Shape drop-down list and the entry fi
 <b>Prerequisites :</b>
 
 * Your computer must be running Windows 10 or newer.
-* Install the latest version of Application. [Download v1.1](https://github.com/4BH1J337/Volume-Calculator/releases/download/Version1.1/Volume.calculator.setup.exe)
+* Install the latest version of Application. [Download v1.2](https://github.com/Abhijeetbyte/Volume-Calculator/releases/download/Version1.2/Volume.Calculator.setup.exe)
 * Application Size : 12 MB 
 
 ## Start with [Python](docs/PYTHON.md) Programme
