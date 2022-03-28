@@ -14,7 +14,8 @@ User can select the desired shape from the Shape drop-down list and the entry fi
 * Your computer must be running Python3 or newer.
 * The script requires [Tkinter](https://docs.python.org/3/library/tkinter.html) library installed. </br>
    - open windows shell and run `pip install tk` to install Tkinter library </br>
-* Get the source [code](github.com/Abhijeetbyte/Volume-Calculator/archive/refs/heads/main.zip)
+   - 
+* Get the source [code](https://github.com/Abhijeetbyte/Volume-Calculator/archive/refs/heads/main.zip)
 
 * Extract the zip and open <b> main.py</b> in Python IDE to build and run the Calculator app.
 
