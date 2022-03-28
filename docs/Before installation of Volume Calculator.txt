@@ -6,7 +6,7 @@ The volume of every shape is calculated differently using different formulas. Th
 
 Application is built using Python programing language (3.10) and Tkinter framework for Graphical User Interface (GUI).
 
-Volume Calculator v1.1
+Volume Calculator v1.2
 
 © 2021 Abhijeet kumar. All rights reserved
 
