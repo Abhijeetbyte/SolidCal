@@ -8,19 +8,23 @@ User can select the desired shape from the Shape drop-down list and the entry fi
 * Auto Liters conversion as per selected unit
 
 # Getting started
-<b>Prerequisites :</b>
 
+<b>Prerequisites</b> :
+
+* Your computer must be running Python3 or newer.
+* The script requires [Tkinter](https://docs.python.org/3/library/tkinter.html) library installed. </br>
+   - open windows shell and run `pip install tk` to install Tkinter library </br>
+* Get the source [code](github.com/Abhijeetbyte/Volume-Calculator/archive/refs/heads/main.zip)
+
+* Extract the zip and open <b> main.py</b> in Python IDE to build and run the Calculator app.
+
+ Windows users can download the binary release
+ 
 * Your computer must be running Windows 10 or newer.
 * Install the latest version of Application. [Download v1.2](https://github.com/Abhijeetbyte/Volume-Calculator/releases/download/Version1.2/Volume.Calculator.setup.exe)
-* Application Size : 12 MB 
 
-## Start with [Python](docs/PYTHON.md) Programme
 
-### Program Execution
-![after installation icon](Images/after-installation.png)
 
-![Running](Images/running.png)
-#
 ### Input & Output Function
 ![shape select](Images/shape-selection.png) ![units](Images/multiple-unit-selection.png)![cylinder](Images/cylinder.png)
 #
@@ -30,7 +34,9 @@ User can select the desired shape from the Shape drop-down list and the entry fi
 * Calculate the volume of a right circular cylinder given 2 known values.
   Enter height and radius and select the right shape, it will give you the volume.
 
-#
+# Reporting Issues
+* Feel free to report <b>[issues](https://github.com/Abhijeetbyte/Volume-Calculator/issues/new)</b>
+
 # License
 
 Copyright © 2022 Abhijeet kumar. All rights reserved.
