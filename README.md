@@ -10,6 +10,13 @@ User can select the desired shape from the Shape drop-down list and the entry fi
 
 # Getting started
 
+<!-- Badge section -->
+![Github All Releases](https://img.shields.io/github/downloads/Abhijeetbyte/Volume-Calculator/total?style=plastic)
+![Languages](https://img.shields.io/badge/Python-FFD43B?plastic&logo=python&logoColor=blue)
+![OS](https://img.shields.io/badge/Windows-0078D6?style=plastic&logo=windows&logoColor=white)
+
+
+
 <b>Prerequisites</b> :
 
 * Your computer must be running Python3 or newer.
