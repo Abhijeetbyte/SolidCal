@@ -26,7 +26,7 @@ Application is built using Python programing language (3.10) and Tkinter framewo
 
 * Your computer must be running Python3 or newer.
 * The script requires [Tkinter](https://docs.python.org/3/library/tkinter.html) library installed. </br>
-   - open windows shell and run `pip install tk` to install Tkinter library </br>
+   - Open Terminal and run `pip install tk` to install Tkinter library </br>
 * Get the source [code](https://github.com/Abhijeetbyte/Volume-Calculator/archive/refs/heads/main.zip)
 
 * Extract the zip and open <b> main.py</b> in Python IDE to build and run the Calculator app.
