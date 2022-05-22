@@ -11,8 +11,8 @@ Application is built using Python programing language (3.10) and Tkinter framewo
 [![Releases](https://img.shields.io/badge/Github-Releases-blue)](https://github.com/Abhijeetbyte/Volume-Calculator/releases)
 [![Github All Releases](https://img.shields.io/github/downloads/Abhijeetbyte/Volume-Calculator/total?label=Downloads)](https://github.com/Abhijeetbyte/Volume-Calculator/releases/download/Version1.2/Volume.Calculator.setup.exe)
 [![License](https://img.shields.io/github/license/Abhijeetbyte/Volume-Calculator?label=License)](LICENSE)
-[![Languages](https://img.shields.io/badge/Python-FFD43B?plastic&logo=python&logoColor=blue)](main.py)
-[![OS](https://img.shields.io/badge/Windows-0078D6?style=plastic&logo=windows&logoColor=white)](README.md)
+[![Languages](https://img.shields.io/badge/Python-FFD43B?&logo=python&logoColor=blue)](main.py)
+[![OS](https://img.shields.io/badge/Windows-0078D6?&logo=windows&logoColor=white)](README.md)
 
 </br>
 
