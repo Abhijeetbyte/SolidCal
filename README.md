@@ -16,7 +16,7 @@ Application is built using Python programing language (3.10) and Tkinter framewo
 
 </br>
 
-# Features
+## Features
 * Standard Calculator functionality offers basic operations and evaluates commands immediately as they are entered
 * Multiple shapes and Metric/Unit operations
 * Auto Liters conversion as per selected unit
@@ -24,7 +24,7 @@ Application is built using Python programing language (3.10) and Tkinter framewo
 </br>
 
 
-# 🚀 Getting started
+## 🚀 Getting started
 
 
 <b>Prerequisites</b> :
@@ -34,10 +34,10 @@ Application is built using Python programing language (3.10) and Tkinter framewo
    - Open Terminal and run `pip install tk` to install Tkinter library </br>
 * Get the source [code](https://github.com/Abhijeetbyte/Volume-Calculator/archive/refs/heads/main.zip)
 
-* Extract the zip and open <b> main.py</b> in Python IDE to build and run the Calculator app.
-
- **Windows users can download the binary release**
+* Extract the zip and open <b> main.py</b> in Python IDE to build and run the Calculator app.</br>
  
+  **Windows users can download the binary release**
+  
 * Your computer must be running Windows 10 or newer.
 * Install the latest version of the Application. [Download v1.2](https://github.com/Abhijeetbyte/Volume-Calculator/releases/download/Version1.2/Volume.Calculator.setup.exe)
 </br>
@@ -51,11 +51,12 @@ Application is built using Python programing language (3.10) and Tkinter framewo
 * Calculate the volume of a right circular cylinder given 2 known values.
   Enter height and radius and select the right shape, it will give you the volume.
 
-# Reporting Issues
-* Feel free to report <b>[issues](https://github.com/Abhijeetbyte/Volume-Calculator/issues/new)</b>
+## Reporting Issues
 
-# License
+Feel free to report <b>[issues](https://github.com/Abhijeetbyte/Volume-Calculator/issues/new)</b>
+
+## License
 
 Copyright © 2022 Abhijeet kumar. All rights reserved.
 
-Licensed under the [CC0-1.0 License.](https://github.com/4BH1J337/Volume-Calculator/blob/main/LICENSE)
+Licensed under the [CC0-1.0 License.](LICENSE)
