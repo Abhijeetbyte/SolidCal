@@ -39,7 +39,7 @@ Application is built using Python programing language (3.10) and Tkinter framewo
   **Windows users can download the binary release**
   
 * Your computer must be running Windows 10 or newer.
-* Install the latest version of the Application. [Download v1.2](https://github.com/Abhijeetbyte/Volume-Calculator/releases/download/Version1.2/Volume.Calculator.setup.exe)
+* Install the latest version of the Application. [Download v1.2](https://github.com/Abhijeetbyte/Volume-Calculator/releases/download/Version1.2/VolumeCalculator_setup.exe)
 </br>
 
 
