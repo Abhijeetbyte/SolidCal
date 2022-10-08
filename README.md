@@ -51,10 +51,15 @@ Application is built using Python programing language (3.10) and Tkinter framewo
 
 * Calculate the volume of a right circular cylinder given 2 known values.
   Enter height and radius and select the right shape, it will give you the volume.
+  
+  <br/>
+  
 
-## Reporting Issues
+## Reporting Issues & Contributions
 
-Feel free to report <b>[issues](https://github.com/Abhijeetbyte/Volume-Calculator/issues/new)</b>
+Feel free to report <b>[issues](https://github.com/Abhijeetbyte/Volume-Calculator/issues/new)</b> and <b>contribute</b> to this repository.
+
+<br/>
 
 ## License
 
