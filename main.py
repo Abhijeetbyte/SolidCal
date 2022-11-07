@@ -31,28 +31,46 @@ shapeVarible.set("Select") # set the placeholder to select
 
 
 
-def show_selected_unit(*args): #function to get Selected value from list DropDown menu ( show_selected, button command)
+def Select_Unit(*args): #function to get selected unit value from list DropDown menu
 
-    global Selected_unit #Value of varible (created in function) outside the function
 
-    Selected_unit = unitVarible.get() # getting selected unit from stored varible
+    Unit = unitVarible.get() # fetching selected unit from OptionMenu varible
+
+
+    global Liters_Constant #Value of varible (created in function) outside the functino
+
+    #Get appropriate Dividing constant as per Unit selected
+  
+    print('Unit Selected : ', Unit) # For Shell
+
+    if Unit =='mm':
+       Liters_Constant = float(1000000) # divide the volume value by 1000000 to change in leters
+       print('Liters Constant : ', Liters_Constant)# For Shell
+       
+    elif Unit == 'cm':
+       Liters_Constant = float(1000)# divide the volume value by 1000
+       print('Liters Constant : ', Liters_Constant)
+      
+    elif Unit == 'in':
+       Liters_Constant = float(61.024) #  divide the volume value by 61.024
+       print('Liters Constant : ', Liters_Constant)
       
 
-show_selected_unit()
+Select_Unit()
 
 
 
-def show_selected_shape(*args): #function to get Selected shape from list DropDown Menu and Push Entry fields
-                                 # and Labels accordangily
+def Select_Shape(*args): #function to get Selected shape from list DropDown Menu and Push Entry fields
+                        # and Labels accordangily
 
-    global Selected_shape  # Setting shape varible global for different functions
+    global Shape  # Setting shape varible global for different functions
 
-    Selected_shape = shapeVarible.get() # getting selected shape from stored varible
+    Shape = shapeVarible.get() # getting selected shape from stored varible
     
 
-    if Selected_shape =='Cuboid':
+    if Shape =='Cuboid':
 
-          print('Shape Selected : ',Selected_shape) # for shell
+          print('Shape Selected : ',Shape) # for shell
 
           #location of entry field for cuboid [ Only visible when cuboid shape selected]
 
@@ -74,9 +92,9 @@ def show_selected_shape(*args): #function to get Selected shape from list DropDo
           dropDownMenu.place(x=80,y=240)#option menu of unit
 
 
-    elif (Selected_shape =='Cylinder' or  Selected_shape =='Cone'):# both shapes have same entry fields
+    elif (Shape =='Cylinder' or  Shape =='Cone'):# both shapes have same entry fields
           
-          print('Shape Selected : ',Selected_shape) # for shell
+          print('Shape Selected : ',Shape) # for shell
 
           # Erase unwanted fields and rename and locations
 
@@ -99,9 +117,9 @@ def show_selected_shape(*args): #function to get Selected shape from list DropDo
           dropDownMenu.place(x=80,y=210) #change loction after cuboid or first time placement
           
 
-    elif Selected_shape =='Sphere':
+    elif Shape =='Sphere':
 
-        print('Shape Selected : ',Selected_shape) # for shell
+        print('Shape Selected : ',Shape) # for shell
 
         # Erase unwanted fields and rename and locations
 
@@ -127,29 +145,13 @@ def show_selected_shape(*args): #function to get Selected shape from list DropDo
         dropDownMenu.place(x=80,y=210) #change loction after cuboid or first time placement
 
 
-show_selected_shape() 
+Select_Shape() 
 
     
 
 
-def Calculate_Vol(*args): #function to Calculate volume ( Calculate_Vol, button command)
+def Calculate_Volume(*args): #function to Calculate volume ( Calculate_Vol, button command)
 
-
-    #Get appropriate Dividing constant as per Unit selected
-  
-    print('Unit Selected : ',Selected_unit) # For Shell
-
-    if Selected_unit =='mm':
-       Liters_Constant = float(1000000) # divide the volume value by 1000000 to change in leters
-       print('Liters Constant : ', Liters_Constant)# For Shell
-       
-    elif Selected_unit == 'cm':
-       Liters_Constant = float(1000)# divide the volume value by 1000
-       print('Liters Constant : ', Liters_Constant)
-      
-    elif Selected_unit == 'in':
-       Liters_Constant = float(61.024) #  divide the volume value by 61.024
-       print('Liters Constant : ', Liters_Constant)
        
 
     #Conversion of parameters into Cubic Units for Different Shapes
@@ -163,14 +165,14 @@ def Calculate_Vol(*args): #function to Calculate volume ( Calculate_Vol, button 
 
     #Cylinder
 
-    if Selected_shape == ('Cylinder'):
+    if Shape == ('Cylinder'):
 
         HEIGHT = float(heightEntry.get())# Get data from entry field varible
                                      #can't define for all cuz in sphere height feild is empty(generate error)so, specific.
 
         CubicUnits=(PI*RADIUS*RADIUS*HEIGHT)#Volume of cylinder is PI x R2 x H (varible created in function)
         
-        print('Calculate volume for : ',Selected_shape) # for shell
+        print('Calculate volume for : ',Shape) # for shell
         print('Radius : ',RADIUS)
         print('Height : ',HEIGHT)
         
@@ -178,20 +180,20 @@ def Calculate_Vol(*args): #function to Calculate volume ( Calculate_Vol, button 
         
     #Cone
 
-    elif Selected_shape == ('Cone'):
+    elif Shape == ('Cone'):
 
         HEIGHT = float(heightEntry.get())# Get data from entry field varible
         
         CubicUnits=(PI*RADIUS*RADIUS*HEIGHT/3)#Volume of cone is PI x R2 x H/3 
 
-        print('Calculate volume for : ',Selected_shape) # for shell
+        print('Calculate volume for : ',Shape) # for shell
         print('Radius : ',RADIUS)
         print('Height : ',HEIGHT)
 
         
     #Cuboid
 
-    elif Selected_shape == ('Cuboid'):
+    elif Shape == ('Cuboid'):
 
         HEIGHT = float(heightEntry.get())# Get data from entry field varible
         WIDTH = float(widthEntry.get())
@@ -200,7 +202,7 @@ def Calculate_Vol(*args): #function to Calculate volume ( Calculate_Vol, button 
         CubicUnits=(RADIUS*WIDTH*HEIGHT)#Volume of cubiod is L x W x H
         #RADIUS and Length Entry feild are same only show or hide or change label name as per selected shape
 
-        print('Calculate volume for : ',Selected_shape) # for shell
+        print('Calculate volume for : ',Shape) # for shell
         print('Length : ',RADIUS) # as length
         print('Width : ',WIDTH)
         print('Height : ',HEIGHT)
@@ -208,11 +210,11 @@ def Calculate_Vol(*args): #function to Calculate volume ( Calculate_Vol, button 
         
     #Sphere
 
-    elif Selected_shape == ('Sphere'):
+    elif Shape == ('Sphere'):
 
         CubicUnits=(4/3*PI*RADIUS*RADIUS*RADIUS)#Volume of cone is 4/3 x PI x R3
 
-        print('Calculate volume for : ',Selected_shape) # for shell
+        print('Calculate volume for : ',Shape) # for shell
         print('Radius : ',RADIUS)
 
 
@@ -223,8 +225,8 @@ def Calculate_Vol(*args): #function to Calculate volume ( Calculate_Vol, button 
     Liters=(CubicUnits/Liters_Constant) # divide the volume value by liters constant
                                         # liters constant changes according to selected units for correct conversion into liters
                                         
-    Round_Liters = float(round(Liters,3)) #Rounding off by 2 decimal places
-    Round_CubicUnits=float( round(CubicUnits,3))
+    Round_Liters = float(round(Liters,5)) #Rounding off by 2 decimal places
+    Round_CubicUnits=float( round(CubicUnits,5))
     
     print('CubicUnits : ',Round_CubicUnits)# for Shell
     print('Liters : ',Round_Liters)
@@ -240,7 +242,6 @@ def Calculate_Vol(*args): #function to Calculate volume ( Calculate_Vol, button 
 
 def CLEAR(*args): # Function to clear/reset all input fields ( CLEAR, button command)
     
-    unitVarible.set("Select") #clear unit selection
     heightValue.set("")#clear input fields parameters
     radiusValue.set("")
     lengthValue.set("")
@@ -254,6 +255,7 @@ def CLEAR(*args): # Function to clear/reset all input fields ( CLEAR, button com
     print("Clear\n")
 
 CLEAR()# Call function , So things already clear in starting
+
 
 
    
@@ -279,11 +281,11 @@ L6=Label(text="Results",font=("Courier", 16, "bold"),fg='#1b6a97')
 
 # Creating widget/ DropDown Menu
 
-dropDownMenu1 = OptionMenu(root,shapeVarible,*shape_List, command = show_selected_shape ) #DropDown menu, Varible, shape list/optons & command
+dropDownMenu1 = OptionMenu(root,shapeVarible,*shape_List, command = Select_Shape) #DropDown menu, Varible, shape list/optons & command
 dropDownMenu1.pack(expand=True)
 dropDownMenu1.place(x=80,y=60) #location of DropDown menu1
 
-dropDownMenu = OptionMenu(root,unitVarible,*unit_List, command = show_selected_unit ) #DropDown menu, Varible, Unit list/optons & command
+dropDownMenu = OptionMenu(root,unitVarible,*unit_List, command = Select_Unit) #DropDown menu, Varible, Unit list/optons & command
  #(location is in show shape function)
 
 
@@ -304,7 +306,7 @@ widthEntry=Entry(root,textvariable=widthValue,width=20,bd=3,font=20)
 #Buttons
 
 Clear_Button=Button(text ="Clear",font=('Helvetica',12), bg="#1b6a97",fg="white",width=8,height=1, command = CLEAR).place(x=30,y=430) #Clear All command button & location 
-Cal_Button=Button(text ="Calculate",font=('Helvetica',12), bg="#1b6a97",fg="white",width=8,height=1, command = Calculate_Vol ).place(x=200,y=430) #Calculte Volume command button & location 
+Cal_Button=Button(text ="Calculate",font=('Helvetica',12), bg="#1b6a97",fg="white",width=8,height=1, command = Calculate_Volume).place(x=200,y=430) #Calculte Volume command button & location 
 
 
 root.mainloop() #Execute tkinter
